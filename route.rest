@@ -1,0 +1,27 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/6784d3e94c2a22e2e54aab8b
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Shreyan1",
+    "userType": "Admin"
+}
+
+###
+
+PATCH http://localhost:3000/users/6784d4ab4c2a22e2e54aab99
+Content-Type: application/json
+
+{
+    "name": "Shreyan Bhandari",
+    "userType": "Customer"
+}
+
+###
+
+DELETE http://localhost:3000/users/6784d3e94c2a22e2e54aab8b
